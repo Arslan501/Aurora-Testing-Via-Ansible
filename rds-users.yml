@@ -1,0 +1,5 @@
+- name: Install web server
+  hosts: localhost
+  become: true
+  roles:
+    - RDS-Users

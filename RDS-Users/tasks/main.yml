@@ -1,0 +1,11 @@
+---
+- name: Connect to the MySQL database
+  community.mysql.mysql_user:
+    name: '{{user_name}}'
+    login_user: '{{login_user_name}}'
+    login_password: '{{login_user_password}}'
+    login_host: '{{login_aurora_host}}'
+    #password: 'abcd123?'
+    password: '{{user_pass}}'
+    priv: "mydatabase.*:ALL"
+    state: present
