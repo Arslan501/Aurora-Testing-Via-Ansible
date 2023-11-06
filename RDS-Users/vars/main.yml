@@ -1,7 +1,7 @@
 ---
 # vars file for RDS-Users
-user_pass: hafjhsdgu
-user_name: fgjiujhgiu
+user_pass: rheugw
+user_name: wekjjri
 login_user_name: admin
-login_user_password: 1234567896
+login_user_password: 123456789
 login_aurora_host: database-1.cluster-c8vs3gkpr018.eu-north-1.rds.amazonaws.com
